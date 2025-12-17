@@ -1,0 +1,41 @@
+{
+  "name": "flux-navigator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "FluxNavigator – TypeScript/Vite project using a curated set of Coinbase SDKs.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^1.1.0",
+    "@coinbase/smart-wallet": "^0.6.0",
+    "@coinbase/x402": "^2.0.0",
+    "@coinbase/agentkit": "^0.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "dependencyDescriptions": {
+    "@coinbase/onchainkit": {
+      "repo": "coinbase/onchainkit",
+      "why": "Base-first UI components and helpers for onchain-enabled applications."
+    },
+    "@coinbase/smart-wallet": {
+      "repo": "coinbase/smart-wallet",
+      "why": "Account abstraction and smart wallet workflows."
+    },
+    "@coinbase/x402": {
+      "repo": "coinbase/x402",
+      "why": "HTTP-native x402 payment flow for payable or gated APIs."
+    },
+    "@coinbase/agentkit": {
+      "repo": "coinbase/agentkit",
+      "why": "Toolkit for agent-based and automated onchain interactions."
+    }
+  }
+}
