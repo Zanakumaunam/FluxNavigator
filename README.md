@@ -79,7 +79,9 @@ MIT License
 ## Author
 
 GitHub: https://github.com/Zanakumaunam 
+
 Public contact (email): sloops.glam.0l@icloud.com
+
 Public contact (X): https://x.com/jennifer_ck7
 
 ## Testnet Deployment (Base Sepolia)
